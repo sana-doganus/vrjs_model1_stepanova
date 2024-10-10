@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <title>Model Viewer AR - VR</title>
+  <title>Модель №1/title>
   <meta name="description" content="Model Viewer (VR / AR) • A-Frame">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
@@ -18,12 +18,9 @@
 <a-scene
   renderer="colorManagement: true;"
   info-message="htmlSrc: #messageText"
-  model-viewer="gltfModel: #fairy-ring; title: Кольцо фей">
+  model-viewer="gltfModel: #fairyring; title: Феи">
   <a-assets>
-    <!--
-      "Fairy Ring" (https://skfb.ly/6QU6o) by galaxiuu is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-    -->
-    <a-asset-item id="fairy-ring"
+    <a-asset-item id="fairyring"
       src="scene.gltf"
       response-type="arraybuffer" crossorigin="anonymous"></a-asset-item>
 
